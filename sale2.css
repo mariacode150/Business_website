@@ -1,0 +1,782 @@
+.bg{background-color: rgba(178, 178, 178, 0.712);}
+.nvb{height: 100px;}
+.title{font-size: 50px; font-family:    'Lucida Grande';}
+.title1{font-size: 30px; font-family: sans-serif; margin-left: -5px;}
+.title2{font-size: 45px; font-family:'Gill Sans';}
+.title3{font-size: 30px; font-family: 'Times New Roman',  }
+.fs{font-size: 50px;}
+
+.navbar {
+    background-color: #b22222; /* Dark red background */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f8f8;
+    text-decoration: underline;
+}
+
+/* Navbar branding */
+.title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title1 {
+    color: #f8f8f8;
+    font-size: 24px;
+}
+
+.title2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title3 {
+    color: #f8f8f8;
+    font-size: 24px;
+}
+
+/* Icon Styling */
+.navbar-icon {
+    width: 100px; /* Adjust size of the icon */
+    height: 100px;
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+
+/* Search icon styling */
+.search-icon {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-icon svg {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.search-icon svg:hover {
+    color: #f8f8f8;
+}
+
+/* Navbar toggle button */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+
+.h1{ height: 500px; width: 100%;}
+/* General body styling */
+
+/* Hero Section with background image */
+.hero1-section {
+    position: relative;
+    width: 100%; 
+    height: 90vh; background-image: url(./bg3.jpg);
+     background-size: cover; background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+
+    align-items: center;
+}
+ 
+ .nav-item .dropdown-menu {
+    background-color: #faf8f8; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.nav-item .dropdown-item {
+    color: #343a40; /* Dark text color */
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item .dropdown-item:hover {
+    background-color: #c62727f9; /* Dark background on hover */
+    color: #ffffff; /* Light text on hover */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.nav-link.active:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Overall Section Styling */
+ /* Overall Section Styling */
+.hero1-section {
+    position: relative;
+    height: 100vh; background-position: center;
+    display: flex;
+    justify-content: center; background: cover;
+    align-items: center;
+    background-color: #0a0a0a;
+    overflow: hidden;
+    padding: 20px; /* Adds some padding for smaller screens */
+}
+
+/* Container Styling */
+.section1-container {
+    text-align: center;
+    display: inline-block;
+    max-width: 800px; /* Limits the width for large screens */
+    width: 100%;
+}
+ 
+.hero1-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+/* Container Styling */
+.section1-container {
+    text-align: center;
+    display: inline-block;
+}
+
+/* Base Style for Animated Text */
+.animated-text {
+    font-size: 2rem;
+    opacity: 0; color: #f5f5f5;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    margin: 10px 0;
+}
+
+/* Hover Effect to Trigger Animation */
+.hero1-section:hover .animated-text {
+    opacity: 1; color: white; text-shadow: #aa3b3f 1px 0 10px;
+    transform: translateY(0);
+}
+
+/* Adding Delays for Each Text */
+.animated-text:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.animated-text:nth-child(2) {
+    transition-delay: 0.3s;
+}
+
+
+
+
+/* Overall Section Styling */
+.main-courses-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Course Card Styling */
+.course {
+    text-align: center;
+    background: #fff;
+    padding: 20px; background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(50px); /* Initial position */
+    opacity: 0; /* Hidden initially */
+    transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+/* Image Styling */
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.6s ease;
+}
+
+/* Title Styling */
+.course-title {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Description Styling */
+.course-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Hover Effects for Images */
+.course:hover .course-image {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Scroll Animation */
+.course:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.course:nth-child(2) {
+    transition-delay: 0.3s;
+}
+
+.course:nth-child(3) {
+    transition-delay: 0.5s;
+}
+
+/* On Scroll: Reveal the Courses */
+.main-courses-section:hover .course {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .course {
+        padding: 15px;
+    }
+
+    .course-title {
+        font-size: 1.5rem;
+    }
+
+    .course-description {
+        font-size: 0.9rem;
+    }
+}
+.product3-card {
+    width: 370px; margin: 20px;
+    height: 380px; /* Adjusted height for better layout */
+    background-color: #fff;
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product3-card:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.product3-image {
+    width: 100%;
+    height: 220px; /* Slightly taller image area */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.product3-card:hover .product3-image {
+    transform: scale(1.1); 
+}
+
+.product3-info {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8; /* Light background for the text area */
+}
+
+.product3-title {
+    font-size: 22px; 
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+    animation: textFadeIn 0.8s ease;
+}
+
+.product3-description {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.4;
+    animation: textFadeIn 1.2s ease;
+}
+
+@keyframes textFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.customization-header {
+    height: auto;
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.customization-subtitle {
+    font-size: 45px;
+    margin-top: -10px;
+    color: rgb(183, 44, 44);
+}
+
+.customization-description {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(183, 44, 44);
+    line-height: 1.6;
+}
+
+
+
+
+.carousel-bg {
+  height: 550px; margin-top: 10px;
+  background-size: 88%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.caption-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.caption-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.carousel-indicators button {
+  background-color: #fff;
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.carousel-indicators .active {
+  background-color: #ff5722;
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+
+
+
+ /* Customization Container */
+.customization-container {
+    padding: 10px;  margin-top: 10px;
+    background-color: #fbfbfb;
+    border-radius: 10px; height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .customization-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .customization-title {
+    font-size: 2.1em;
+    color: #333;  margin-top: -50px;
+  }
+  
+  .customization-subtitle {
+    color: black;
+    font-size: 4em;
+    margin-top: -30px;
+  }
+  
+  /* Feature Section */
+   
+
+
+
+  /* Feature Section */
+.feature-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Feature Card */
+  .feature-card {
+    position: relative; 
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    perspective: 1000px;
+  }
+  
+  /* Feature Image */
+  .feature-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Feature Text */
+  .feature-text {
+    position: absolute;
+    top: 45%; width: 100%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(30, 30, 30, 0.6);
+    padding: 15%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  .feature-card:hover .feature-image {
+    opacity: 0.9;
+  }
+  
+  .feature-card:hover .feature-text {
+    opacity: 1; width: 100%;
+  }
+  
+  /* Animation for Titles and Description */
+  .product-title, .product-description {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .feature-card:hover .product-title, .feature-card:hover .product-description {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .product-title {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  
+  .product-description {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+
+
+
+
+
+
+
+ /* Base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item .item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.item-dots {
+    color: #ccc;
+}
+
+.item-label {
+    display: flex;
+    align-items: center;
+}
+
+.item-label p {
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.item-icon {
+    width: 100px;   /* Set the width of the images */
+    height: 100px;  /* Set the height of the images */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.item-label.eco {
+    background-color: #2fad64;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.item-label.new {
+    background-color: #4583ac;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.item-label.sale {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.item-label.bio {
+    background-color: #9b59b6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.item-label.vegan {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+
+    .item-name {
+        font-size: 1rem;
+    }
+
+    .item-icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+ /* General Styles */
+ .customization1-header {
+    height: auto;
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.customization1-subtitle {
+    font-size: 45px;
+    margin-top: -10px;
+    color: rgb(183, 44, 44);
+}
+
+.customization1-description {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(183, 44, 44);
+    line-height: 1.6;
+}
+
+/* Pagination Styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.page-number {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(183, 44, 44);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.page-number:hover {
+    background-color: #a02727;
+}
+
+.more {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    color: rgb(183, 44, 44);
+    border: 1px solid rgb(183, 44, 44);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more:hover {
+    background-color: rgb(183, 44, 44);
+    color: white;
+}
+
+.more-page {
+    display: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .customization1-subtitle {
+        font-size: 30px;
+    }
+
+    .customization1-description {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .page-number {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .more {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .customization-subtitle {
+        font-size: 24px;
+    }
+
+    .customization-description {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .page-number {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .more {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 20px; /* Button will stay 20px from the bottom of the page */
+    right: 20px;  /* Button will stay 20px from the right of the page */
+    z-index: 9999; /* Ensures the button stays on top of other elements */
+    background-color: #841818; /* WhatsApp green color or any color you like */
+    border-radius: 100px 100px; /* Circular shape */
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow for better visibility */
+}
+
+.chat-button img {
+    width: 50px; /* Set the size of the icon */
+    height: 50px;
+}
+
+.chat-button:hover {
+    background-color: #8c1212; /* Darker shade when hovering */
+    cursor: pointer;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+ 

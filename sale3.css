@@ -1,0 +1,477 @@
+.nvb{height: 100px;}
+.title{font-size: 50px; font-family:    'Lucida Grande';}
+.title1{font-size: 30px; font-family: sans-serif; margin-left: -5px;}
+.title2{font-size: 45px; font-family:'Gill Sans';}
+.title3{font-size: 30px; font-family: 'Times New Roman',  }
+
+/* Pagination Styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.page-number {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(183, 44, 44);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.page-number:hover {
+    background-color: #a02727;
+}
+
+.more {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    color: rgb(183, 44, 44);
+    border: 1px solid rgb(183, 44, 44);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Pagination Styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.page-number {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(183, 44, 44);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.page-number:hover {
+    background-color: #a02727;
+}
+
+.more {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    color: rgb(183, 44, 44);
+    border: 1px solid rgb(183, 44, 44);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more:hover {
+    background-color: rgb(183, 44, 44);
+    color: white;
+}
+
+.more-page {
+    display: none;
+}
+/* Pagination Styles */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.page-number {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(183, 44, 44);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.page-number:hover {
+    background-color: #a02727;
+}
+
+.more {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    color: rgb(183, 44, 44);
+    border: 1px solid rgb(183, 44, 44);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more:hover {
+    background-color: rgb(183, 44, 44);
+    color: white;
+}
+
+.more-page {
+    display: none;
+}
+
+
+.more:hover {
+    background-color: rgb(183, 44, 44);
+    color: white;
+}
+
+.more-page {
+    display: none;
+}
+
+.navbar {
+    background-color: #b22222; /* Dark red background */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f8f8;
+    text-decoration: underline;
+}
+
+/* Navbar branding */
+.title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title1 {
+    color: #f8f8f8;
+    font-size: 24px;
+}
+
+.title2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.title3 {
+    color: #f8f8f8;
+    font-size: 24px;
+}
+
+/* Icon Styling */
+.navbar-icon {
+    width: 100px; /* Adjust size of the icon */
+    height: 100px;
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+
+/* Search icon styling */
+.search-icon {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-icon svg {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.search-icon svg:hover {
+    color: #f8f8f8;
+}
+
+/* Navbar toggle button */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+
+
+    header {
+        text-align: center;
+        padding: 20px 0;
+    }
+ 
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .about-text {
+        flex: 1 1 300px;
+        animation: slideInLeft 1.5s ease-in-out;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: rgb(252, 251, 251); text-shadow: rgb(248, 1, 1) 1px 1px 2px;
+    }
+
+    .about-text p {
+        margin-bottom: 15px;
+        color: #fefefe; text-shadow: #944b4b 1px 1px 2px;
+    }
+
+    .about-image {
+        flex: 1 1 300px;
+        animation: slideInRight 1.5s ease-in-out;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        animation: zoomIn 1.5s ease-in-out;
+    }
+
+ 
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    @keyframes slideInLeft {
+        0% { transform: translateX(-100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes slideInRight {
+        0% { transform: translateX(100%); opacity: 0; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes zoomIn {
+        0% { transform: scale(0.5); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+        .about-content {
+            flex-direction: column;
+        }
+    }
+
+
+
+
+ 
+
+    .container {
+        max-width: 800px;
+        margin: 50px auto; 
+        padding: 20px;
+        background: #19181863;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(229, 84, 84, 0.1);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .form-section, .image-section {
+        flex: 1;
+        min-width: 300px;
+    }
+ 
+
+    header h1 {
+        font-size: 2.5rem;
+        color: rgb(254, 253, 253); text-shadow: #eb0808 1px 2px 2px;
+        animation: slideDown 1.5s ease-in-out;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group label {
+        margin-bottom: 5px; color: white;
+        font-weight: bold;
+    }
+
+    .form-group input, 
+    .form-group textarea {
+        padding: 10px;
+        border: 1px solid #fe0a0a;
+        border-radius: 4px;
+        font-size: 1rem;
+        animation: inputFocus 0.5s ease-in-out;
+    }
+
+    .form-group input:focus, 
+    .form-group textarea:focus {
+        outline: none;
+        border-color: #db0c0c;
+        box-shadow: 0 0 5px rgba(239, 2, 2, 0.5);
+    }
+
+    .form-group textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    .submit-btn {
+        padding: 10px 20px;
+        background: #8d1418;
+        color: #fdfbfb;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .submit-btn:hover {
+        background: #641717;
+    }
+
+ 
+
+    .image-section img {
+        width: 90%; height: 330px;
+        border-radius: 8px;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+        0% { transform: translateY(20px); opacity: 0; }
+        100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes slideDown {
+        0% { transform: translateY(-20px); opacity: 0; }
+        100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            padding: 15px;
+        }
+    }
+
+
+    
+    footer {
+        background-color: #2e2d2d4f; /* Background color */
+        padding:10px; margin-left: auto; margin-right: auto;
+        text-align: center;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .social-icons a img {
+        width: 40px; /* Set the size of the icon images */
+        height: 40px;
+        transition: transform 0.3s ease;
+    }
+    
+    .social-icons a img:hover {
+        transform: scale(1.2); /* Zoom effect on hover */
+    }
+    
+ 
+    .chat-button {
+        position: fixed;
+        bottom: 20px; /* Button will stay 20px from the bottom of the page */
+        right: 20px;  /* Button will stay 20px from the right of the page */
+        z-index: 9999; /* Ensures the button stays on top of other elements */
+        background-color: #080808; /* WhatsApp green color or any color you like */
+        border-radius: 100px 100px; /* Circular shape */
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow for better visibility */
+    }
+    
+    .chat-button img {
+        width: 45px; /* Set the size of the icon */
+        height: 45px; background-size: cover;
+    }
+    
+    .chat-button:hover {
+        background-color: #8e1818; /* Darker shade when hovering */
+        cursor: pointer;
+        transform: scale(1.1); /* Slight zoom effect on hover */
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+    }
+    
+    .tiktok-icon-wrapper {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .tiktok-icon-wrapper:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 10px rgba(255, 0, 80, 0.4);
+    }
+    
+    /* SVG Icon */
+    .tiktok-icon {
+        width: 40px;
+        height: 40px;
+        transition: fill 0.3s ease;
+    }
+    
+    .tiktok-icon-wrapper:hover .tiktok-icon {
+        fill: #050505;
+    }
+    
