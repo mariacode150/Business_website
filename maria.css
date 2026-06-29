@@ -1,0 +1,77 @@
+ 
+/* HERO */
+.hero {
+  background-image: url('./glas3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.hero-overlay {
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(249, 247, 247);
+}
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-text .highlight {
+  color: #3c1917;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* ABOUT SECTION */
+.about {
+  padding: 80px 20px;
+}
+.section-title {
+  color: #5a2a27;
+  font-weight: 700;
+}
+.section-desc {
+  color: #333;
+  max-width: 700px;
+  margin: 10px auto 30px;
+}
+
+/* SPECIALS */
+.specials {
+  background-color: #5a2a27;
+  color: white;
+  padding: 80px 20px;
+}
+.dish-card {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s;
+}
+.dish-card:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: translateY(-5px);
+}
+.dish-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #3c1917;
+  color: #951919;
+  padding: 15px;
+  font-size: 0.9rem;
+}
